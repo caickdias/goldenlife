@@ -1,9 +1,9 @@
 import { title, firstParagraph, aboutPic, secondParagraph, thirdParagraph, button } from '../../data/aboutSection';
-import SolidButton from '../SolidButton';
+import RegisterButton from '../RegisterButton';
 
 import Title from '../Title';
 import FancyPic from './FancyPic';
-import Paragraph from './Paragraph';
+import Paragraph from '../Paragraph';
 
 const AboutSection = () => {
 
@@ -19,7 +19,7 @@ const AboutSection = () => {
             <Paragraph text={secondParagraph} />
             <Paragraph text={thirdParagraph} />
 
-            <SolidButton title={button.title} link={button.link} />
+            <RegisterButton />
 
         </section>
     )

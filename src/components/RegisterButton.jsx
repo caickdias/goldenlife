@@ -1,13 +1,13 @@
-const SolidButton = ({ title, link }) => {
+const RegisterButton = () => {
     return(
         <a
-            href={link}
+            href="#"
             className="bg-main-blue p-6 w-fit text-sm text-white font-bold rounded-md mt-4
                 hover:text-main-gold transition-colors duration-300"
         >
-            {title}
+            INSCREVA-SE
         </a>
     )
 }
 
-export default SolidButton;
+export default RegisterButton;
