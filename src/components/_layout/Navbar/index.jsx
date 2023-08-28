@@ -7,7 +7,7 @@ import Hamburger from "../../icons/Hamburger";
 const Navbar = () => {
     return(
         <nav
-            className="flex items-center justify-between px-2 py-4"
+            className="fixed flex w-full items-center justify-between px-2 py-4"
         >
 
             <Logo />
