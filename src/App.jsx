@@ -1,7 +1,8 @@
 import './App.css'
-import HeroSection from './components/HeroSection';
 
 import Navbar from './components/_layout/Navbar';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <Navbar />
 
       <HeroSection />
+
+      <AboutSection />
     </>
   )
 }

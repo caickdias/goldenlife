@@ -1,8 +1,6 @@
 const TO_SECONDS = 60;
-const TO_MINUTES = 60;
 const TO_HOUR = 3600;
 const SECONDS_A_DAY= 86400;
-const SECONDS_AN_HOUR = 3600;
 const SECONDS_A_MINUTE = 60;
 
 import Display from './Display';
