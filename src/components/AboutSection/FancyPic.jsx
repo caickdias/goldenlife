@@ -1,6 +1,6 @@
 const FancyPic = ({ src }) => {
     return(
-        <div className="relative">
+        <div className="relative flex w-full aspect-square mb-6">
             <InnerSquare />
             
             <PicSquare src={src} />

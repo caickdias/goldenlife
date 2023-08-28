@@ -9,6 +9,7 @@ export default {
       colors: {
         "main-blue": "#293158",
         "main-gold": "#DAA520",
+        "main-text": "#353535"
       }
     },
   },
