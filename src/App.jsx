@@ -5,10 +5,11 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import CounterSection from './components/CounterSection';
 import MoreAboutSection from './components/MoreAboutSection';
-import SpeakersSection from './components/SpeakersSection';
 import ScheduleSection from './components/ScheduleSection';
 import TicketsSection from './components/TicketsSection';
 import SponsorsSection from './components/SponsorsSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/_layout/Footer';
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
       <TicketsSection />
 
       <SponsorsSection />
+
+      <ContactSection />
+
+      <Footer />
 
     </>
   )
