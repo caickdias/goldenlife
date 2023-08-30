@@ -3,7 +3,7 @@ const Pic = ({ src }) => {
         <img 
             src={src}
             alt="pic bg"
-            className="rounded-md mb-4"
+            className="rounded-md mb-4 lg:aspect-square lg:flex lg:flex-1"
         />
     )
 }

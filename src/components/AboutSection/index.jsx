@@ -9,17 +9,22 @@ const AboutSection = () => {
 
     return(
         <section
-            className="flex flex-col px-4 py-16 "
+            className="flex flex-col px-4 py-16 
+            lg:flex-row lg:px-32 lg:items-center lg:justify-center"
         >
             <FancyPic src={aboutPic} />
 
-            <Title title={title} />
-        
-            <Paragraph text={firstParagraph} />
-            <Paragraph text={secondParagraph} />
-            <Paragraph text={thirdParagraph} />
+            <div className='flex flex-col
+            lg:px-8'
+            >
+                <Title title={title} />
+            
+                <Paragraph text={firstParagraph} />
+                <Paragraph text={secondParagraph} />
+                <Paragraph text={thirdParagraph} />
 
-            <RegisterButton />
+                <RegisterButton />
+            </div>
 
         </section>
     )

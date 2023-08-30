@@ -3,7 +3,8 @@ const BgImage = ({ src }) => {
         <img 
             src={src}
             alt="counter image bg"
-            className="absolute h-full object-cover opacity-10"
+            className="absolute h-full object-cover opacity-10 
+                lg:w-full"
         />
     )
 }

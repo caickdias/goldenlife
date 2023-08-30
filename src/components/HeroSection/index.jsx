@@ -32,7 +32,7 @@ const HeroSection = () => {
         <section
             className='items-center justify-between
                 bg-gradient-to-b to-main-blue via-main-blue from-main-blue h-full
-                lg:h-screen'
+                lg:h-[110vh]'
         >
             <BackgroundImage img={bg} />
 

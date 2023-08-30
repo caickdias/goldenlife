@@ -2,7 +2,7 @@ import parse from 'html-react-parser';
 
 const Paragraph = ({ text }) => {
     return(
-        <h1 className='text-lg leading-[1.8] text-main-text my-3'>
+        <h1 className='text-lg leading-[1.8] text-main-text'>
             {parse(text)}
         </h1>
     )
