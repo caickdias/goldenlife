@@ -1,7 +1,8 @@
 const Hamburger = () => {
     return(
         <button
-            className="flex flex-col gap-2 items-center justify-center w-16 h-16 mr-2 mt-2 border-2 border-white rounded-full"
+            className="flex flex-col gap-2 items-center justify-center w-16 h-16 mr-2 mt-2 border-2 border-white rounded-full
+                lg:hidden"
         >
             <Line />
             <Line />

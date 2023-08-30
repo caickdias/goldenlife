@@ -5,12 +5,12 @@ const title = `GOLDEN LIFE \n WORKSHOP: CIÊNCIA A FAVOR DO ESPORTE`;
 const subtitle = `27 e 28 de Janeiro - 2024 - Montes Claros`;
 
 const scheduleButton = {
-    title: 'VIEW SCHEDULE',
+    title: 'VER PROGRAMAÇÃO',
     link: '#'
 }
 
 const buyTicketsButton = {
-    title: 'BUY TICKET NOW',
+    title: 'INSCREVA-SE',
     link: '#',
 }
 

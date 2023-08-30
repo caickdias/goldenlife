@@ -17,7 +17,9 @@ const Timer = ({ seconds }) => {
     const secondsLeft = seconds % TO_SECONDS;
 
     return(
-        <div className="flex w-full h-full flex-wrap gap-2">            
+        <div className="flex w-full h-full flex-wrap gap-2
+            lg:items-center lg:justify-center lg:gap-12"
+        >            
             <Display timeLeft={daysLeft} unit='Dias' />
             <Display timeLeft={hoursLeft} unit='Horas' />
             <Display timeLeft={minutesLeft} unit='Minutos' />

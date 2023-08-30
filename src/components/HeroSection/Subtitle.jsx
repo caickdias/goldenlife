@@ -1,6 +1,6 @@
 const Subtitle = ({ title }) => {
     return(
-        <h1 className='text-xl text-white '>
+        <h1 className='text-xl text-white lg:font-bold'>
             {title}
         </h1>
     )
