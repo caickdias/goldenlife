@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import { title, schedule } from '../../data/scheduleSection';
 
+import RegisterButton from '../RegisterButton';
+
 import Title from '../Title';
 import ScheduleDay from './ScheduleDay';
 import ScheduleEvent from './ScheduleEvent';
@@ -21,7 +23,7 @@ const ScheduleSectoin = () => {
     return (
         <section className="p-8 text-center">
             <Title title={title} />
-
+            
             {
                 schedule.map(day =>
                     <ScheduleDay 
@@ -33,10 +35,14 @@ const ScheduleSectoin = () => {
                     />
                 )
             }
-
+                        
             {
                 activeSchedule.map(event => <ScheduleEvent key={`${event.name}${event.startsAt}`} eventInfo={event} />)
-            }
+            }            
+
+            <div className='mt-12'>
+                <RegisterButton />
+            </div>
         </section>
     )
 }

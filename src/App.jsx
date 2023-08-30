@@ -7,6 +7,7 @@ import CounterSection from './components/CounterSection';
 import MoreAboutSection from './components/MoreAboutSection';
 import SpeakersSection from './components/SpeakersSection';
 import ScheduleSection from './components/ScheduleSection';
+import TicketsSection from './components/TicketsSection';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <MoreAboutSection />
 
       <ScheduleSection />
+
+      <TicketsSection />
 
     </>
   )
