@@ -16,7 +16,7 @@ const SponsorsSection = () => {
             {
                 sponsors.map((sponsor, index) => 
                     <img 
-                        className='h-10 my-2'
+                        className='h-20 my-2'
                         key={index}
                         src={sponsor}
                         alt="sponsor"

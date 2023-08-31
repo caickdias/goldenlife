@@ -8,7 +8,7 @@ import MoreAboutSection from './components/MoreAboutSection';
 import ScheduleSection from './components/ScheduleSection';
 import TicketsSection from './components/TicketsSection';
 import SponsorsSection from './components/SponsorsSection';
-import ContactSection from './components/ContactSection';
+import SpeakersSection from './components/SpeakersSection';
 import Footer from './components/_layout/Footer';
 import TimerSection from './components/TimerSection';
 
@@ -25,6 +25,8 @@ function App() {
       <CounterSection />
 
       <MoreAboutSection />
+
+      <SpeakersSection />
 
       <ScheduleSection />
 

@@ -16,11 +16,11 @@ const MoreAboutSection = () => {
                 className="flex flex-col px-8 pt-16 
                 lg:flex-row lg:gap-8 lg:items-center lg:justify-center lg:mt-8"
             >
-                <div className=' lg:w-[500px] lg:flex lg:items-center lg:justify-center lg:p-8'>
+                <div className=' lg:w-[600px] lg:flex lg:items-center lg:justify-center lg:p-8'>
                     <Pic src={picLeft} />  
                 </div>
 
-                <div className='lg:w-[570px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center lg:p-8'>
+                <div className='lg:w-[570px]  lg:flex lg:flex-col lg:items-start lg:justify-center lg:p-8'>
                     <Title title={title} />
                     <Paragraph text={firstParagraph}  />
                     <Paragraph text={secondParagraph}  />                    
@@ -36,8 +36,8 @@ const MoreAboutSection = () => {
                         <Pic src={picRight} />  
                     </div>
                    
-                   <div className='flex flex-col lg:p-8'>
-                    <div className='lg:w-[500px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center'>
+                   <div className='flex flex-col lg:pl-8'>
+                        <div className='lg:w-[570px]   lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center'>
                             <Paragraph text={firstParagraph}  />
                             <Paragraph text={secondParagraph}  />
                         </div>                

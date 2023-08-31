@@ -1,5 +1,5 @@
-import picLeft from '../assets/moreabout-bg.jpg';
-import picRight from '../assets/moreabout-bg-2.jpg';
+import picLeft from '../assets/moreabout-bg.png';
+import picRight from '../assets/moreabout-bg-2.png';
 
 const title = "Por que você precisa ir ao GOLDEN LIFE?";
 

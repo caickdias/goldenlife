@@ -10,6 +10,11 @@ const navItems = [
         title: "GOLDEN LIFE"
     },
     {
+        name: "speakers",
+        link: "#speakers",
+        title: "Palestrantes"
+    },
+    {
         name: "schedule",
         link: "#schedule",
         title: "Programação"
