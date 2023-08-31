@@ -36,12 +36,14 @@ const MoreAboutSection = () => {
                         <Pic src={picRight} />  
                     </div>
                    
-                   <div className='lg:w-[500px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center lg:p-8'>
-                        <Paragraph text={firstParagraph}  />
-                        <Paragraph text={secondParagraph}  />
-                    </div>                
-                    
-                    <RegisterButton />
+                   <div className='flex flex-col lg:p-8'>
+                    <div className='lg:w-[500px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center'>
+                            <Paragraph text={firstParagraph}  />
+                            <Paragraph text={secondParagraph}  />
+                        </div>                
+                        
+                        <RegisterButton />
+                    </div>
                       
             </div>
         </section>
