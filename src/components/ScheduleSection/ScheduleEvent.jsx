@@ -1,6 +1,6 @@
 const ScheduleEvent = ({ eventInfo }) => {
     return(
-        <div className="flex flex-col my-4 border-zinc-300 bg-gray-50 border-[1px] p-2 transition-all duration-300">
+        <div className="flex flex-col my-4 border-zinc-300 bg-zinc-100  border-b-[1px] p-2 transition-all duration-300">
             <Duration startsAt={eventInfo.startsAt} endsAt={eventInfo.endsAt} />
             <Name name={eventInfo.name} />
             <Speaker speaker={eventInfo.speaker} />

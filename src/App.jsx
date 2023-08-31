@@ -10,6 +10,7 @@ import TicketsSection from './components/TicketsSection';
 import SponsorsSection from './components/SponsorsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/_layout/Footer';
+import TimerSection from './components/TimerSection';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
 
       <SponsorsSection />
 
-      <ContactSection />
+      <TimerSection />
 
       <Footer />
 

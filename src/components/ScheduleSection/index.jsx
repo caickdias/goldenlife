@@ -21,9 +21,15 @@ const ScheduleSectoin = () => {
     }
 
     return (
-        <section className="p-8 text-center">
+        <section 
+            id="schedule"
+            className="p-8 text-center lg:px-44 lg:mx-32 lg:shadow-lg lg:shadow-zinc-300"
+        >
             <Title title={title} />
             
+            <div className='flex flex-col
+                lg:flex-row lg:mt-12'
+            >
             {
                 schedule.map(day =>
                     <ScheduleDay 
@@ -35,6 +41,7 @@ const ScheduleSectoin = () => {
                     />
                 )
             }
+            </div>
                         
             {
                 activeSchedule.map(event => <ScheduleEvent key={`${event.name}${event.startsAt}`} eventInfo={event} />)

@@ -5,9 +5,9 @@ const navItems = [
         title: "Sobre"
     },
     {
-        name: "speaking",
-        link: "#speaking",
-        title: "Palestrantes"
+        name: "goldenlife",
+        link: "#goldenlife",
+        title: "GOLDEN LIFE"
     },
     {
         name: "schedule",
@@ -21,7 +21,7 @@ const navItems = [
     },
     {
         name: "contact",
-        link: "#contact",
+        link: "#tickets",
         title: "Contato"
     }
 ]

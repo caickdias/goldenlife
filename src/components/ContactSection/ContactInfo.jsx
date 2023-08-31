@@ -3,7 +3,12 @@
     const { title, Icon, text, link } = info;
 
     return(
-        <div className="flex items-center gap-4 w-full ">
+        <a 
+            href={link}
+            className="flex items-center gap-4 w-full pl-4
+            hover:bg-zinc-100
+            lg:pl-8"
+        >
 
             <Icon />
 
@@ -12,7 +17,7 @@
                 <Text text={text} />
             </div>
 
-        </div>
+        </a>
     )
 }
 

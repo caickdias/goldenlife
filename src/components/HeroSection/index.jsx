@@ -37,7 +37,7 @@ const HeroSection = () => {
             <BackgroundImage img={bg} />
 
             <div
-                className='flex flex-col h-full gap-8 text-center px-4 py-12
+                className='flex flex-col h-full gap-8 text-center px-4 py-12 z-40
                 lg:pt-44'
             >
                 <Title title={title} />
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 <Subtitle title={subtitle} />
 
                 <div className='flex  flex-col w-full
-                    lg:flex-row lg:items-center lg:justify-center lg:gap-4'
+                    lg:flex-row lg:items-center lg:justify-center lg:gap-4 z-40'
                 >
                     <TransparentButton title={scheduleButton.title} link={scheduleButton.link} />
 

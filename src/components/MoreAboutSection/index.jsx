@@ -9,6 +9,7 @@ const MoreAboutSection = () => {
 
     return(
         <section
+            id="goldenlife"
             className='lg:shadow-lg lg:mx-32 lg:shadow-zinc-400'
         >
             <div
@@ -22,8 +23,7 @@ const MoreAboutSection = () => {
                 <div className='lg:w-[570px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center lg:p-8'>
                     <Title title={title} />
                     <Paragraph text={firstParagraph}  />
-                    <Paragraph text={secondParagraph}  />
-                    <RegisterButton />
+                    <Paragraph text={secondParagraph}  />                    
                 </div>
                 
             </div>
@@ -39,8 +39,9 @@ const MoreAboutSection = () => {
                    <div className='lg:w-[500px] lg:gap-4 lg:flex lg:flex-col lg:items-start lg:justify-center lg:p-8'>
                         <Paragraph text={firstParagraph}  />
                         <Paragraph text={secondParagraph}  />
-                        <RegisterButton />
                     </div>                
+                    
+                    <RegisterButton />
                       
             </div>
         </section>

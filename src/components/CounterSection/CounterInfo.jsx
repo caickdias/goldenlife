@@ -1,3 +1,5 @@
+import CountUp from 'react-countup';
+
 const CounterInfo = ({ title, Icon, number }) => {
     return(
         <div className="flex flex-1 flex-col items-center justify-center gap-2 min-w-[140px] py-6 px-4">
@@ -8,7 +10,7 @@ const CounterInfo = ({ title, Icon, number }) => {
     )
 }
 
-const Number = ({ number }) => <h1 className="text-white font-bold text-4xl mt-4">{number}</h1>;
+const Number = ({ number }) => <h1 className="text-white font-bold text-4xl mt-4"><CountUp start={0} end={number} enableScrollSpy /></h1>;
 
 const Title = ({ title }) => <h1 className="text-white text-xl">{title}</h1>;
 

@@ -9,6 +9,7 @@ const AboutSection = () => {
 
     return(
         <section
+            id="about"
             className="flex flex-col px-4 py-16 
             lg:flex-row lg:px-32 lg:items-center lg:justify-center"
         >

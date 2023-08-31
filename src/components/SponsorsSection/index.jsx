@@ -1,14 +1,18 @@
-import { title, sponsors } from '../../data/sponsorsSection';
+import { title, subtitle, sponsors } from '../../data/sponsorsSection';
 
 import Title from '../Title';
 
 const SponsorsSection = () => {
     return(
-        <section className='flex flex-col items-center justify-center p-4 pb-6'>
+        <section className='flex flex-col items-center justify-center p-4 pb-8'>
 
             <Title title={title} />
 
-            <div className='flex flex-wrap gap-4'>
+            <h1 className='text-2xl mb-8'>
+                {subtitle}
+            </h1>
+
+            <div className='flex flex-wrap gap-4 lg:gap-24 lg:px-60 lg:justify-center'>
             {
                 sponsors.map((sponsor, index) => 
                     <img 
